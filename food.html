@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Food</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src='enter.js'></script>
+
+</head>
+
+<body>
+  <!-- loading animation-->
+  <div id=loader> </div>
+  <div id="mainContainer">
+    <h1> You rack your mind for scrumptious, mouthwatering dishes, and you see these options
+    in your mind's eye:</h1>
+      <p>
+
+      <div class= "imageContainer">
+        <div class= "photo" onclick = "EnterPasta()">
+        <img src="Images/Food/pasta.png" width="100px" height="100px">
+        <span class="caption">Decadent Pasta Aglio e Olio </span>
+      </div>
+      <div class = "photo" onclick = "EnterChicken()">
+        <img src="Images/Food/chicken.jfif" width="100px" height="100px">
+        <span class="caption">Crispy Fried Chicken</span>
+      </div>
+      </div>
+    <!-- Navigation Menu at the bottom, clicking executes js script for nav-->
+    <div class="grid-container">
+      <div class="item1" onclick="EnterHome()">Home</div>
+      <div class="item2" onclick="EnterFood()">Food</div>
+      <div class="item3" onclick="EnterDrink()">Drink</div>
+
+    </div>
+
+
+
+  </div>
+
+
+</body>
+
+</html>

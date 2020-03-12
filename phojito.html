@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Drink</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src='enter.js'></script>
+
+</head>
+<body>
+  <!-- loading animation-->
+  <div id=loader> </div>
+  <div id="mainContainer">
+
+    <h1> As you approach the phojito, the drink shimmers, like a reflection on the sea, and then disappears.
+     In it's place stands:</h1>
+<!--ingredient/ material list -->
+<div class= imageMaterial >
+    <div class = "materials">
+      <p> a muddler,</p>
+      <p> a glass,</p>
+      <p> a straw, </p>
+      <p> a cinnamon stick, </p>
+      <p> a star anise clove,
+      <p> a thai chili pepper, </p>
+      <p> 8 mint leaves,</p>
+      <p> 2 ounces of setlzer,</p>
+      <p> 2 ounces of white rum, </p>
+      <p> .5 ounce of lime juice,</p>
+      <p> a pot of lemongrass syrup,</p>
+      <p> and ice cubes.</p>
+      </div>
+        <!--Images-->
+          <div>
+          <img class="recipePhoto" src="Images/Drink/phojito.jpg" >
+      </div>
+      </div>
+      <div class= "instructions">
+        <p>
+          Inside of the cup, you drop the mint leaves inside with .75 ounces of the lemongrass
+          syrup and rum. The lemongrass syrup smells wildly exotic, as it has been simmered
+          with a cup of sugar and water for 30 minutes, allowing for the citric flavors of
+          the lemongrass to infuse with the syrup.
+         </p>
+
+        <p> At this point, you face a daunting task that recquires great discipline:
+          releasing the flavor and scents from the mint by pressing the mint using the
+          muddler. Applying too much pressure during this extraction will result in
+          chlorophyll being released, which will lead your expedition to a bitter end.
+          </p>
+          <p>
+            Despite this danger, you are fearless in the face of adversity. You chuckle
+            with amusement when others would shudder in fear. The mint leaves are perfectly
+            extracted. You then place a few ice cubes inside of the cube and then top of the drink
+            with seltzer.
+          </p>
+          <p>
+            To further augment your drink, you go all the way and then a little more. By topping
+            it with a chili pepper, star anise, and a cinnamon It would
+            not be a far stretch to say that you embark on a flavor safari.
+          </p>
+
+
+        <div class = "choose">
+          <p id = "NavDrink" onclick="EnterDrink()"> Choose A New Drink...</p>
+          <p id= "Restart" onclick="EnterHome()"> ...Or Restart your Journey</p>
+        </div>
+
+    <!-- Navigation Menu at the bottom, clicking executes js script for nav-->
+    <div class="grid-container">
+      <div class="item1" onclick="EnterHome()">Home</div>
+      <div class="item2" onclick="EnterFood()">Food</div>
+      <div class="item3" onclick="EnterDrink()">Drink</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

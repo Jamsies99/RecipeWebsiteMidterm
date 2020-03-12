@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Drink</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src='enter.js'></script>
+
+</head>
+
+<body>
+  <!-- loading animation-->
+  <div id=loader> </div>
+  <div id="mainContainer">
+
+    <h1> As the saying goes: "Winner, Winner, Chicken Dinner", so in other words
+      you, the winner, should always have on hand:
+          </h1>
+<!--ingredient/ material list -->
+<div class= imageMaterial >
+    <div class = "materials">
+      <p> chicken legs</p>
+      <p> masa harina flour,</p>
+      <p> 4 eggs, </p>
+      <p> paprika,</p>
+      <p> canola oil, </p>
+      <p> salt,</p>
+      <p> pepper</p>
+      <p>and cayenne pepper</p>
+
+      </div>
+        <!--Images-->
+          <div>
+          <img class="recipePhoto" src="Images/Food/chicken.jfif" >
+      </div>
+      </div>
+      <div class= "instructions">
+        <p>You start by creating a dredging system. You lay out masa harina in one
+          tray and beaten eggs in another. In the tray of masa harina, you season the flour with
+        cayenne, paprika, and salt, because a true champion is able to keep cool while facing
+      the heat. </p>
+        <p>
+          You season the chicken with salt and pepper, because only a LOSER would let his chicken
+          be underseasoned and you aren't a loser, right? You're a true boss, a true Champion.
+        </p>
+
+        <p>
+          Once the chicken is seasoned, you dip the legs into the masa tray, shaking off the excess
+          flour before you plunge them into a deluge of eggs. You repeat this process again, to build the
+          most crispy outside layer for your chicken, chockful of seasoning and flavor.
+          </p>
+
+          <p>
+            It's time: frying time. You heat up your oil until it reaches 350 degrees fahrenheit, and in the
+            process, making your house smell like the baby of a waffle house dumpster mixed with the Gulf of
+            Mexico in 2010. But you disregard the complaints from your suitemates about the wafting odors now
+            permeating your surroundings. For you are a champion, and the simple minds of the general population
+            could never fathom the genius vested in yourself. You place in your drumsticks and let out a sigh of content
+            as the oil crackles and emitts the most satisfying bubbling noises.</p>
+
+            <p> You fry these legs until they are G.B.D, Golden, Brown, Delicious. After marveling over these
+              golden nuggets of the culinary world, you place them on a plate lined with paper towel to sop up
+              some of the grease. After all, a true winner is put together, not a sweaty slob.</p>
+
+            <p> You eat almost immediately after the chicken has been drained of oil, for humble people serve the
+              food, hungry people are the ones who eat.</p>
+
+        </div>
+
+        <div class = "choose">
+          <p id = "NavFood" onclick="EnterFood()"> Choose A New Dish...</p>
+          <p id= "Restart" onclick="EnterHome()"> ...Or Restart your Journey</p>
+        </div>
+
+    <!-- Navigation Menu at the bottom, clicking executes js script for nav-->
+    <div class="grid-container">
+      <div class="item1" onclick="EnterHome()">Home</div>
+      <div class="item2" onclick="EnterFood()">Food</div>
+      <div class="item3" onclick="EnterDrink()">Drink</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

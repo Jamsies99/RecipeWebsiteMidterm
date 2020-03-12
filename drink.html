@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Drink</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src='enter.js'></script>
+
+</head>
+
+<body>
+  <!-- loading animation-->
+  <div id=loader> </div>
+  <div id="mainContainer">
+
+    <h1> Seeking some comfort and refreshment you reach for a ...</h1>
+
+
+
+      <!--Images-->
+      <div class= "imageContainer">
+        <div class="photo" onclick="EnterCosmo()">
+        <img src="Images/Drink/cosmo.jpg" width="100px" height="100px">
+        <span class="caption">Classy Cosmopolitan</span>
+      </div>
+      <div class="photo" onclick="EnterNegroni()">
+        <img src="Images/Drink/negroni.jpg"width="100px" height="100px">
+        <span class="caption">Sophisticated Negroni</span>
+      </div>
+      <div class="photo" onclick ="EnterPhojito()">
+        <img src="Images/Drink/phojito.jpg"width="100px" height="100px">
+        <span class = "caption"> Refreshing Phojito </span>
+      </div>
+    <!-- Navigation Menu at the bottom, clicking executes js script for nav-->
+    <div class="grid-container">
+      <div class="item1" onclick="EnterHome()">Home</div>
+      <div class="item2" onclick="EnterFood()">Food</div>
+      <div class="item3" onclick="EnterDrink()">Drink</div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>

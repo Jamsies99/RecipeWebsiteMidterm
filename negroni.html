@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Drink</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src='enter.js'></script>
+
+</head>
+
+<body>
+  <!-- loading animation-->
+  <div id=loader> </div>
+  <div id="mainContainer">
+
+    <h1> You reach for a Negroni, but just before the drink is in your grasp, it is replaced by:</h1>
+<!--ingredient/ material list -->
+<div class= imageMaterial >
+    <div class = "materials">
+      <p> a glass,</p>
+      <p> a spoon,</p>
+      <p> 1 ounce of gin, </p>
+      <p> 1 ounce of sweet vermouth,</p>
+      <p> 1 ounce of campari,</p>
+      <p> a twist of orange peel,</p>
+      <p> and ice cubes.</p>
+      </div>
+        <!--Images-->
+          <div>
+          <img class="recipePhoto" src="Images/Drink/negroni.jpg" >
+      </div>
+      </div>
+      <div class= "instructions">
+        <p> You grab the glass and fill it with the ice cubes, gin, vermouth, and campari.
+        All of these elements, middling when tasted in singularity, become a potent apertif
+        to stimulate one's appetite once stirred with a spoon for a half-minute. </p>
+
+        <p> You take a sip of this bittersweet mixture. Although good by itself, the aroma of
+          this cocktail is dark and bold, with notes of vegetation from the campari and junipter berries from the gin.
+          To brighten it up, you grab the orange peel, and run the rind against the rim of your glass, and top the mixture
+          with it.
+        </div>
+
+        <div class = "choose">
+          <p id = "NavDrink" onclick="EnterDrink()"> Choose A New Drink...</p>
+          <p id= "Restart" onclick="EnterHome()"> ...Or Restart your Journey</p>
+        </div>
+
+    <!-- Navigation Menu at the bottom, clicking executes js script for nav-->
+    <div class="grid-container">
+      <div class="item1" onclick="EnterHome()">Home</div>
+      <div class="item2" onclick="EnterFood()">Food</div>
+      <div class="item3" onclick="EnterDrink()">Drink</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

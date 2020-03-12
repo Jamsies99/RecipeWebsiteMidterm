@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Drink</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src='enter.js'></script>
+
+</head>
+
+<body>
+  <!-- loading animation-->
+  <div id=loader> </div>
+  <div id="mainContainer">
+
+    <h1>You come home from a long day at school. It was horrible and you want to lift your spirits up
+    on something tasty, and easy to make. After searching your pantry you find the following:</h1>
+<!--ingredient/ material list -->
+<div class= imageMaterial >
+    <div class = "materials">
+      <p> a cutting board,</p>
+      <p> a knife,</p>
+      <p> 1/2 cup of olive oil, <p>
+      <p> 1/2 head of garlic, </p>
+      <p> a bottle of red pepper flakes,</p>
+      <p> 1/2 of a lemon,</p>
+      <p> 1/3 cup of parsley, </p>
+      <p> salt </p>
+      <p> and pepper. </p>
+      </div>
+        <!--Images-->
+          <div>
+          <img class="recipePhoto" src="Images/Food/Pasta.png" >
+      </div>
+      </div>
+      <div class= "instructions">
+        <p> You start with starting to boil your water to cook your pasta. However, now is not the time to
+          squander precious seconds! The outcome of this dish is heavily determined by your precise timing.</p>
+
+      <p>Wasting no time, you commence the preparation of your ingredients. You finely chop your parsley into
+        miniscule morsels. </p>
+      <p>By pressing in the center of the head of garlic,you're able to separate
+        all of the cloves. You remove the outside skin by using your fingertips, revealing
+        the pungent innards. </p>
+
+      <p> To break down the garlic into smaller pieces, you utilize your emotions, and you treat the garlic as a
+        form of stress relief. By placing the knife's flat side over the garlic, and then smashing the knife
+        with a closed fist, you find some sort of comfort in this otherwise mundane process of prepping. </p>
+
+      <p> Around this time, your water will have reached a boil. Right before you're about to put in the pasta, you
+        remember to season your water heavily with salt, as nothing is worse then having underseasoned pasta in a
+        pasta dish. You slowly place the pasta inside the boiling water to avoid any splashes and set your timer
+      two minutes less then what is recommended on the packaging </p>
+
+      <p>While the pasta begins to cook, the time is ripe for you to assemble the sauce. You add olive oil to a
+        sauce pan, and heat under medium heat. Once the oil has been heated, you toss in the garlic and fry until
+        the garlic is golden brown, and smells very fragant. Desiring a little bit a heat, you add a pinch of
+      red pepper flakes.  </p>
+
+      <p> Around this time, your timer for the pasta goes off. You grab about a 1/4 cup of pasta water
+        to add later to the sauce, and strain the pasta. With a loud sizzle, you add your pasta to the sauce pan.
+        Moments later, this sizzle morphs into a thunderous roar as you add the reserved pasta water. </p>
+
+      <p> After a few minutes, you're greeted by a thick sauce, as the starches in the pasta water have combined with
+        the oil. You toss the pasta and make sure that everything is evenly coated, while adding the juice from the lemon.
+        You throw in parsley too, so to add some contrast to the rest of the dish.
+
+        <p> you take roughly 1/2 of the pasta and place it on your plate. Before you dig in, you admire your masterpiece.
+          While the contrast with the parsley is great, you decide to add some ground pepper to further diversify the color
+          of the dish.</p>
+</div>
+        <div class = "choose">
+          <p id = "NavFood" onclick="EnterFood()"> Choose A New Dish...</p>
+          <p id= "Restart" onclick="EnterHome()"> ...Or Restart your Journey</p>
+        </div>
+
+    <!-- Navigation Menu at the bottom, clicking executes js script for nav-->
+    <div class="grid-container">
+      <div class="item1" onclick="EnterHome()">Home</div>
+      <div class="item2" onclick="EnterFood()">Food</div>
+      <div class="item3" onclick="EnterDrink()">Drink</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

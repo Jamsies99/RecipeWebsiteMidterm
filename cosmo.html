@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Drink</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src='enter.js'></script>
+
+</head>
+
+<body>
+  <!-- loading animation-->
+  <div id=loader> </div>
+  <div id="mainContainer">
+
+    <h1> You lunge for the cosmopolitan, but it vanishes into thin air! You see in it's place:</h1>
+<!--ingredient/ material list -->
+<div class= imageMaterial >
+    <div class = "materials">
+
+      <p> a glass,</p>
+      <p> a cocktail shaker,</p>
+      <p> a strainer </p>
+      <p> .25 ounce of simple syrup, </p>
+      <p> .5 ounce of lime juice,</p>
+      <p> 1 ounce of cranberry juice,</p>
+      <p> 2 ounces of vodka,</p>
+      <p> .5 ounce of triple sec,</p>
+      <p> an orange peel, </p>
+      <p> and ice cubes.</p>
+      </div>
+        <!--Images-->
+          <div>
+          <img class="recipePhoto" src="Images/Drink/cosmo.jpg" >
+      </div>
+      </div>
+      <div class= "instructions">
+        <p> You grab the cocktail shaker and deposit the ice, simple syrup, lime
+          juice, cranberry juice, vodka and triple sec into the shaker's confines.
+          Slamming on the top of the shaker, you vigoriously shake for 10 seconds.
+         </p>
+
+        <p>
+          You take off the top of the shaker to reveal the treasure nested within.
+          This vibrant fluid with it's sweet alluring aroma, is temptious in nature.
+          Yet this treasure that you have unearthed is still unrefined.
+          </p>
+
+        <p>
+          To further exemplify the promiscious and elegant nature, this mixture
+          is filtered with a strainer, leaving behind the fragments of ice and bringing
+          forward a smooth drink that is sweet and playful, yet balanced.
+        </p>
+        <p> You taste the drink, and although concoction is amazing, the aroma is overpoweringly
+          sweet. To balance the scent, you squeeze an orange peel over top.
+        </div>
+
+        <div class = "choose">
+          <p id = "NavDrink" onclick="EnterDrink()"> Choose A New Drink...</p>
+          <p id= "Restart" onclick="EnterHome()"> ...Or Restart your Journey</p>
+        </div>
+
+    <!-- Navigation Menu at the bottom, clicking executes js script for nav-->
+    <div class="grid-container">
+      <div class="item1" onclick="EnterHome()">Home</div>
+      <div class="item2" onclick="EnterFood()">Food</div>
+      <div class="item3" onclick="EnterDrink()">Drink</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
